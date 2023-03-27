@@ -45,7 +45,7 @@ The desired eigenstate manifold (the algorithm cannot distinguish between degene
 
 | ![ancilla_dm](https://user-images.githubusercontent.com/98838428/227922915-0cfb7835-26a3-41e0-9a52-97219c9858ac.png) |
 |:--:| 
-| Figure 3: Quantum circuit describing the state of the composite system $|\psi_{\mathrm{AS}} \rangle$ after the application of the controlled unitary $U$, from [1].|
+| Figure 3: Quantum circuit describing the state of the composite system $\psi_{\mathrm{AS}}\rangle$ after the application of the controlled unitary _U_, from [1].|
 
 Energies are found by performing state tomography on the ancilla qubit. Multiple measurements of the ancilla in the $X$ and $Y$ basis ($\langle Z \rangle = 0$) are used to rebuild the off-diagonal elements of the density matrix given in the system in Fig. 3. The reduced density matrix $\rho_\mathrm{A}$ describing state of the ancilla qubit is found as follows, starting from the composite state of the qubit system after the controlled unitary is applied. $$|\psi_{\mathrm{AS}} \rangle = \Sigma_{n=0}^{2^N-1}c_{n}|\phi_n\rangle \otimes \frac{1}{\sqrt{2}}(|0\rangle + e^{i2\pi\phi_n}|1\rangle)$$ 
 Where the state of the system $|\psi_\mathrm{S}\rangle$ has been decomposed into the (complete) set of eigenvectors of the unitary $U$. Notice the eigenphases of $U$ have been _kicked-back_ onto the state of the ancilla qubit. The density matrix of the entire qubit system is given by
