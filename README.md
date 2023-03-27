@@ -30,7 +30,7 @@ Givens rotations can be used to excite an electron from one mode to another whil
 |:--:| 
 | Figure 1: Universal quantum circuit for the H2 molecule with 5 parameters, from [2].|
 
-### The WAVES Protocol
+### 3. The WAVES Protocol
 
 The purpose of the WAVES (Witness-Assisted Variational Eigenspectra Solver) protocol is to find estimates for ground and excited state energies of a general molecule using a witness-assisted variational search. These energy estimates are then further refined using an IPEA (Iterative Phase Estimation Algorithm). 
 
