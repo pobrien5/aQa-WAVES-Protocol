@@ -1,3 +1,5 @@
+The following is the final report for the Applied Quantum Algorithms course @ Leiden Unviersity 2022, reproducing the code from https://arxiv.org/abs/1611.03511.
+
 # aQa-WAVES-Protocol
 The WAVES (Witness-Assisted Variational Eigenspectra Solver) protocol employs a witness assisted variational search to find ground and excited states of a general molecule. The protocol is implemented in CIRQ and OpenFermion to investigate the eigenstate manifold of a Hydrogen molecule.
 
